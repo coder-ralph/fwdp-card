@@ -15,18 +15,21 @@ body{
 .card{
   font-family: 'Share Tech Mono', 'Times New Roman', Times, serif;
   width: 340px;
+  width: 100%;
+  max-width: 400px;
   overflow: hidden;
   background: #fff;
   border-radius: 10px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   display: flex;
   flex-direction: column;
+  margin: 20px;
 }
 
 
 .card-image img{
   width: 100%;
-  height: 160px;
+  height: auto;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   object-fit: cover;
@@ -84,4 +87,18 @@ body{
   color: #000;
   transform: scale(1.5);
 }
-      
+
+/* Media Query */
+/* Adjust the icon size on smaller screens */
+@media (max-width: 768px) {
+  .icons a {
+    font-size: 16px;
+  }
+}
+
+/* Increase the margin between icons on smaller screens */
+@media (max-width: 576px) {
+  .icons a {
+    margin: 0 8px;
+  }
+}
