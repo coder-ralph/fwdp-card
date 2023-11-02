@@ -95,10 +95,3 @@ body{
     font-size: 16px;
   }
 }
-
-/* Increase the margin between icons on smaller screens */
-@media (max-width: 576px) {
-  .icons a {
-    margin: 0 8px;
-  }
-}
