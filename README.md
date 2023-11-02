@@ -4,7 +4,12 @@ This is a simple HTML and CSS project that creates a responsive FWDP profile car
 
 ## Preview
 
+*Sample 1: A FWDP Card made during the HTML/CSS session by [Sir GengineerDev](https://github.com/GengineerDev). Also, you can follow the Filipino Web Development Peers's GitHub (https://github.com/FWDP) for more projects and resources.*
 ![Responsive Profile Card](screenshot/card-01.png)
+
+<br> 
+
+*Sample 2: A responsive profile card designed and developed by [Ralph](https://github.com/coder-ralph)*
 ![Responsive Profile Card](screenshot/card-02.png)
 
 ## Features
